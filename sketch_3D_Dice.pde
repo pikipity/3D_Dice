@@ -6,7 +6,7 @@ int[] initLocation={windowSize[0]/2,windowSize[1]-100,-50};//Initial Location
 float defaultSpeed=600;
 float initSpeed=defaultSpeed;//Initial Speed
 float a=-300.000;//Acceleration
-float[] InitPhase={0,random(-2*PI,2*PI),0};
+float[] InitPhase={random(-2*PI,2*PI),random(-2*PI,2*PI),random(-2*PI,2*PI)};
 PGraphics faceOne;
 PGraphics faceTwo;
 PGraphics faceThree;
